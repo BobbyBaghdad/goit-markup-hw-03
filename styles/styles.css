@@ -33,19 +33,19 @@ body p ul  {
 }
 
 
-
-
-
-/* HEADER */
-.header-container {
+.container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid #ececec;
 }
+
+
+/* HEADER */
+
 .page-header {
+  border: 1px solid #ececec;
   display: flex;
   align-items: center;
 }
@@ -129,16 +129,7 @@ body p ul  {
 .main {
   background-color: var(--footer);
 }
-.main-container {
- width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto; 
-}
-.main .title {
-  margin-top: 200px;
-}
+
 .title {
   padding-top: 200px;
   padding-left: 452px;
@@ -181,13 +172,7 @@ body p ul  {
 
 /* SPECS section  */
 
-.specs-container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .specs-list {
   display: flex;
 }
@@ -225,13 +210,6 @@ margin-right: 12px;
 
   /* ACTIVITY section */
 
-.activity-container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .activity-list {
   display: flex;
   justify-content: center;
@@ -239,8 +217,6 @@ margin-right: 12px;
 .activity-cards {
   margin-right: 30px;
 }
-
-
 
 .activity {
   background-color: var(--activitysection);
@@ -261,14 +237,6 @@ margin-right: 12px;
 
 /*TEAM section */
 
-.team-container {
- width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-} 
-}
 .team {
   text-align: center;
 }
@@ -326,13 +294,6 @@ margin-right: 12px;
   background-color: var(--accent);
 }
 
-.menu-container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .example-container {
     display: flex;
   flex-wrap: wrap;
@@ -370,13 +331,6 @@ margin-right: 12px;
   margin-top: 60px;
 }
 
-.footer-container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .footer {
   background-color: var(--footer);
 }
