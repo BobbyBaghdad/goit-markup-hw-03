@@ -51,12 +51,13 @@ img {
   padding-top: 94px;
 }
 
-.activity,
-.team {
+.activity-title,
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.7;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 /* HEADER */
@@ -254,7 +255,6 @@ img {
 /*TEAM section */
 
 .team {
-  margin-bottom: 50px;
   text-align: center;
   background-color: var(--activitysection);
 }
