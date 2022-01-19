@@ -69,7 +69,6 @@ img {
   align-items: center;
   justify-content: left;
 }
-
 /* Logo */
 
 .header-logo {
@@ -265,6 +264,11 @@ img {
   justify-content: center;
   margin: 0px;
 }
+
+.team-cards {
+  border: 1px solid rgba(238, 238, 238, 1);
+}
+
 .team-cards:not(:last-child) {
   margin-right: 30px;
 }
@@ -293,6 +297,7 @@ img {
 */ .portfolio {
   background-color: var(--portfoliosection);
 }
+
 .tools {
   display: flex;
   justify-content: center;
